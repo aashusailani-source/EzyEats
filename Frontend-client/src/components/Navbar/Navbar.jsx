@@ -15,7 +15,7 @@ const Navbar = ({ setShowLogin }) => {
     localStorage.removeItem("token");
     toast.success("logged out");
     setToken("");
-    navigate('/')
+    navigate('/');
   }
 
   return (
